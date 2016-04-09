@@ -70,7 +70,7 @@ p1,p2,p3,p4,conv5, conv6, gap, output = detector.inference(images_tf)
 loss_tf = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits( output, labels_tf ))
 
 weights_only = filter( lambda x: x.name.endswith('W:0'), tf.trainable_variables() )
-weight_decay = tf.reduce_sum(tf.pack([tf.nn.l2_loss(x) for x in tf.trainable_variables()])) * weight_decay_rate
+weight_decay = tf.reduce_sum(tf.pack([tf.nn.l2_loss(x) for x in weights_only])) * weight_decay_rate
 loss_tf += weight_decay
 
 sess = tf.InteractiveSession()
