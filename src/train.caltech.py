@@ -88,11 +88,11 @@ if pretrained_model_path:
     saver.restore(sess, pretrained_model_path)
 
 testset.index  = range( len(testset) )
-testset = testset.ix[np.random.permutation( len(testset) )]#[:1000]
-trainset2 = testset[1000:]
-testset = testset[:1000]
+#testset = testset.ix[np.random.permutation( len(testset) )]#[:1000]
+#trainset2 = testset[1000:]
+#testset = testset[:1000]
 
-trainset = pd.concat( [trainset, trainset2] )
+#trainset = pd.concat( [trainset, trainset2] )
 # We lack the number of training set. Let's use some of the test images
 
 f_log = open('../results/log.caltech256.txt', 'w')
