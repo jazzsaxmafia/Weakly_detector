@@ -1,0 +1,5 @@
+epoch:0	acc:0.702
+epoch:1	acc:0.751
+epoch:2	acc:0.759
+epoch:3	acc:0.778
+epoch:4	acc:0.767
