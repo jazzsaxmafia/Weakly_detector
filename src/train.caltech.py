@@ -58,6 +58,7 @@ else:
     trainset = pd.read_pickle( trainset_path )
     testset  = pd.read_pickle( testset_path )
     label_dict = pd.read_pickle( label_dict_path )
+    n_labels = len(label_dict)
 
 ipdb.set_trace()
 learning_rate = tf.placeholder( tf.float32, [])
