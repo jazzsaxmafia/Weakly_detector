@@ -9,7 +9,7 @@ import ipdb
 
 weight_path = '../data/caffe_layers_value.pickle'
 model_path = '../models/caltech256/'
-pretrained_model_path = '../models/caltech256/model-0'
+pretrained_model_path = None #'../models/caltech256/model-0'
 n_epochs = 10000
 init_learning_rate = 0.01
 weight_decay_rate = 0.0005
