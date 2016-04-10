@@ -60,7 +60,6 @@ else:
     label_dict = pd.read_pickle( label_dict_path )
     n_labels = len(label_dict)
 
-ipdb.set_trace()
 learning_rate = tf.placeholder( tf.float32, [])
 images_tf = tf.placeholder( tf.float32, [None, 224, 224, 3], name="images")
 labels_tf = tf.placeholder( tf.int64, [None], name='labels')
