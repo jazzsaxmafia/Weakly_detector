@@ -13,4 +13,5 @@ Object localization using only image-level annotation, without bounding box anno
 B. Zhou, A. Khosla, A. Lapedriza, A. Oliva, and A. Torralba
 Learning Deep Features for Discriminative Localization.
 Computer Vision and Pattern Recognition (CVPR), 2016.
-[[PDF](http://arxiv.org/pdf/1512.04150.pdf)][[ProjectPage](http://cnnlocalization.csail.mit.edu/)]
+
+[[PDF](http://arxiv.org/pdf/1512.04150.pdf)][[Project Page](http://cnnlocalization.csail.mit.edu/)]
