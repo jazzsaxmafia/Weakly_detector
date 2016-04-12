@@ -10,3 +10,7 @@ Object localization using only image-level annotation, without bounding box anno
 
 * If you want to train the model using custom dataset, you need the pretrained VGG Network weights [[VGG](https://drive.google.com/file/d/0B5o40yxdA9PqOVI5dF9tN3NUc2c/view?usp=sharing)], which is used in [[code](https://github.com/jazzsaxmafia/Weakly_detector/blob/master/src/train.caltech.py#L10)].
 
+B. Zhou, A. Khosla, A. Lapedriza, A. Oliva, and A. Torralba
+Learning Deep Features for Discriminative Localization.
+Computer Vision and Pattern Recognition (CVPR), 2016.
+[[PDF](http://arxiv.org/pdf/1512.04150.pdf)][[ProjectPage](http://cnnlocalization.csail.mit.edu/)]
